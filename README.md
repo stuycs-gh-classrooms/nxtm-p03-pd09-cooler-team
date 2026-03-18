@@ -84,3 +84,4 @@ The objects will either repel or attract each other depending on their charges (
 Describe what your combination simulation will look like. Explain how it will be setup, and how it should behave while running.
 
 Our combination simulation will integrate all parts of the prior simulations. 
+We can use springs between the objects that will contract and expand depending on the electrostatic force (when the obejcts repel the spring will expand; when the objects attract the spring will contract). Gravity and drag can be applied on the objects as well. 
