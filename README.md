@@ -32,7 +32,7 @@ All projects will require the following:
 ### Custom Force Formula
 What is the formula for your force? Including descriptions/definitions for the symbols. (You may include a picture of the formula if it is not easily typed.)
 
-$$ {\overrightarrow F} = k\dfrac{q1q2}{r^2} $$
+$$ {\overrightarrow F} = k \dfrac{q1q2}{r^2} $$
 
 ### Custom Force Breakdown
 - What information that is already present in the `Orb` or `OrbNode` classes does this force use?
