@@ -69,7 +69,7 @@ We will create springs between the objects we are using. When the objetcs move a
 ### Simulation 3: Drag
 Describe what your drag simulation will look like. Explain how it will be setup, and how it should behave while running.
 
-YOUR ANSWER HERE
+Our drag simulation will be a object moving through a fluid and there will be drag force opposing its motion.
 
 --- 
 
