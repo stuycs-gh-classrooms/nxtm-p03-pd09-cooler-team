@@ -83,5 +83,4 @@ The objects will either repel or attract each other depending on their charges (
 ### Simulation 5: Combination
 Describe what your combination simulation will look like. Explain how it will be setup, and how it should behave while running.
 
-YOUR ANSWER HERE
-
+Our combination simulation will integrate all parts of the prior simulations. 
