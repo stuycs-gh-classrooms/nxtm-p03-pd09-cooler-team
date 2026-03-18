@@ -45,7 +45,7 @@ $$ {\overrightarrow F} = k \dfrac{q1q2}{r^2} $$
   - The amount of charge each particle has. Use int for this
 
 - Does this force interact with other `Orbs`, or is it applied based on the environment?
-  - Yes, based on the charges
+  - Yes, based on the charges. The orbs will each be assigned a charge, and the electorstatic force will be calculated and executed based on those charges. 
 
 - In order to calculate this force, do you need to perform extra intermediary calculations? If so, what?
   - 
