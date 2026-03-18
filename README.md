@@ -39,13 +39,13 @@ $$ {\overrightarrow F} = k \dfrac{q1q2}{r^2} $$
   - r will be the distance between the two orbs. 
 
 - Does this force require any new constants, if so what are they and what values will you try initially?
-  - YOUR ANSWER HERE
+  - k; which is coulomb's constant. We're going to use 8.99 * 10^9 for ours.
 
 - Does this force require any new information to be added to the `Orb` class? If so, what is it and what data type will you use?
   - YOUR ANSWER HERE
 
 - Does this force interact with other `Orbs`, or is it applied based on the environment?
-  - YOUR ANSWER HERE
+  - Yes, based on the charges
 
 - In order to calculate this force, do you need to perform extra intermediary calculations? If so, what?
   - YOUR ANSWER HERE
