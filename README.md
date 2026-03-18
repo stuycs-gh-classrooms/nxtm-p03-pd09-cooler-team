@@ -55,6 +55,7 @@ YOUR ANSWER HERE
 ### Simulation 1: Gravity
 Describe how you will attempt to simulate orbital motion.
 
+Use Newton's gravitational force law to determine the gravity between two objects and also add velocity to both objects so they don't collide into each
 --- 
 
 ### Simulation 2: Spring
