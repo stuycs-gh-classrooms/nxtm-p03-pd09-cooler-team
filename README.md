@@ -36,7 +36,7 @@ $$ {\overrightarrow F} = k \dfrac{q1q2}{r^2} $$
 
 ### Custom Force Breakdown
 - What information that is already present in the `Orb` or `OrbNode` classes does this force use?
-  - YOUR ANSWER HERE
+  - r will be the distance between the two orbs. 
 
 - Does this force require any new constants, if so what are they and what values will you try initially?
   - YOUR ANSWER HERE
