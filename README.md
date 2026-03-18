@@ -62,7 +62,7 @@ Use Newton's gravitational force law to determine the gravity between two object
 ### Simulation 2: Spring
 Describe what your spring simulation will look like. Explain how it will be setup, and how it should behave while running.
 
-We will create springs between the objects we are using. When the objetcs move around, the spring can be compressed or expanded depending on the movement. 
+We will create springs between the objects we are using. When the objects move around, the spring can be compressed or expanded depending on the movement. 
 
 --- 
 
