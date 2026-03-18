@@ -76,7 +76,7 @@ Our drag simulation will be a object moving through a fluid and there will be dr
 ### Simulation 4: Custom force
 Describe what your Custom force simulation will look like. Explain how it will be setup, and how it should behave while running.
 
-YOUR ANSWER HERE
+The objects will either repel or attract each other depending on their charges (like charges repel; unlike charges attract)
 
 --- 
 
