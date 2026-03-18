@@ -3,7 +3,7 @@
 ### NeXTCS
 ### Period: 9
 ## Thinker0: Aarushi Jain
-## Thinker1: OTHER NAME HERE
+## Thinker1: Aabdullah Jaami
 ## Thinker2: OTHER NAME HERE (delete this line if you are a duo)
 ---
 
