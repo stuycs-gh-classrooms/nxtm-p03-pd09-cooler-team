@@ -42,13 +42,13 @@ $$ {\overrightarrow F} = k \dfrac{q1q2}{r^2} $$
   - k; which is coulomb's constant. We're going to use 8.99 * 10^9 for ours.
 
 - Does this force require any new information to be added to the `Orb` class? If so, what is it and what data type will you use?
-  - YOUR ANSWER HERE
+  - The amount of charge each particle has. Use int for this
 
 - Does this force interact with other `Orbs`, or is it applied based on the environment?
   - Yes, based on the charges
 
 - In order to calculate this force, do you need to perform extra intermediary calculations? If so, what?
-  - YOUR ANSWER HERE
+  - 
 
 --- 
 
