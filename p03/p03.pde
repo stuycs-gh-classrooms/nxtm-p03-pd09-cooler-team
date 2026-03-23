@@ -5,6 +5,7 @@ boolean isMoving = true;
 int mode = 1; // 1=gravity, 2=spring, 3=drag
 
 float G = 1;
+float K = 200;
 float k = 0.05;
 float restLength = 100;
 float dragC = 0.02;
@@ -50,17 +51,18 @@ void drawMenu() {
   if (mode == 1) modeName = "Gravity";
   if (mode == 2) modeName = "Spring";
   if (mode == 3) modeName = "Drag";
+  if (mode == 4) modeName = "Electrostatics";
   
   text("Mode: " + modeName, 10, 20);
   text("Movement: " + (isMoving ? "ON" : "OFF"), 10, 40);
-  text("Keys: 1=Gravity | 2=Spring | 3=Drag | SPACE=Move", 10, 60);
+  text("Keys: 1=Gravity | 2=Spring | 3=Drag | 4=Electrostatics | SPACE=Move", 10, 60);
 }
 
 
 void keyPressed() {
   if (key == ' ') isMoving = !isMoving;
   
-  if (key >= '1' && key <= '3') {
+  if (key >= '1' && key <= '4') {
     mode = key - '0';
     resetSimulation();
   }
