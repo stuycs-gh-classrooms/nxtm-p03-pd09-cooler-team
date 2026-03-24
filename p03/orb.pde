@@ -95,20 +95,18 @@ class Orb {
     return force;
   }//drag
 
-  PVector getElectrostatic(Orb other) {
-    PVector force = PVector.sub(other.pos, pos);
+PVector getElectrostatic(Orb other) {
+  PVector force = PVector.sub(other.pos, pos);
 
-    float d = constrain(force.mag(), 5, 50);
-    force.normalize();
+  float d = constrain(force.mag(), 5, 50); // avoid infinite force
+  force.normalize();
 
-    float strength = (K * charge * other.charge) / (d * d);
-    force.mult(strength);
+  float strength = (K * charge * other.charge) / (d * d);
 
-    // float maxForce = 5;
-    // force.limit(maxForce);
-
-    return force;
-  } //electrostatic
+  force.mult(strength);
+  PVector nil = new PVector(0,0);
+  return nil.sub(force.x,force.y);
+}
 
 
   void move() {
